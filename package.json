@@ -1,15 +1,19 @@
 {
   "name": "foli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "folder linker to make links for items from source folder to destination folder",
   "scripts": {
     "test": "foli -s ./test/source -d ./test/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mu-yu/foli.git"
   },
   "keywords": [
     "mklink",
     "foli"
   ],
-  "author": "Everain<490769750@qq.com>",
+  "author": "Everain<490769750@qq.com>(https://everain.me/)",
   "license": "MIT",
   "bin": {
     "foli": "bin/foli.js"
@@ -18,5 +22,7 @@
     "chalk": "^2.4.1",
     "commander": "^2.17.1",
     "fs-extra": "^7.0.0"
-  }
+  },
+  "bugs": "https://github.com/mu-yu/foli/issues",
+  "homepage": "https://github.com/mu-yu/foli"
 }
